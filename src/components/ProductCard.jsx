@@ -1,15 +1,18 @@
+// src/components/ProductCard.jsx
 import { useNavigate } from 'react-router-dom';
+import { useCart } from '../context/CartContext';
 
 const ProductCard = ({ product }) => {
   const navigate = useNavigate();
+  const { addToCart } = useCart();
 
   const handleCardClick = () => {
     navigate(`/products/${product.id}`);
   };
 
   const handleAddToCart = (e) => {
-    e.stopPropagation(); // Impede que o clique no botão acione a navegação
-    console.log(`🛒 Added to cart: ${product.title}`);
+    e.stopPropagation();
+    addToCart(product);
   };
 
   return (
@@ -28,7 +31,7 @@ const ProductCard = ({ product }) => {
       <div className="mt-auto">
         <button
           onClick={handleAddToCart}
-          className="w-full bg-blue-600 text-white py-2 px-4 rounded-xl hover:bg-blue-700 transition"
+          className="w-full bg-black text-white py-2 px-4 rounded-xl hover:bg-indigo-900 transition"
         >
           Add to Cart
         </button>

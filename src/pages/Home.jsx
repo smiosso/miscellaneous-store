@@ -12,7 +12,7 @@ const Home = () => {
         <h2 className="text-2xl font-semibold mb-2">🎉 Spring Sale!</h2>
         <p className="mb-4">Up to 50% off selected items. Limited time only!</p>
         <Link to="/products">
-          <button className="bg-black text-white py-2 px-6 rounded hover:bg-gray-800">
+          <button className="bg-black text-white py-2 px-6 rounded hover:bg-indigo-900">
             Shop Now
           </button>
         </Link>
