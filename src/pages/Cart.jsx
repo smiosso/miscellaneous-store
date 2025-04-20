@@ -9,7 +9,7 @@ const Cart = () => {
     <div className="p-4 max-w-3xl mx-auto">
       <h1 className="text-2xl font-bold mb-4">Your Cart</h1>
       {cart.length === 0 ? (
-        <p>Your cart is empty.</p>
+        <p>Your cart is empty. Let's shopping!</p>
       ) : (
         <div>
           {cart.map((item) => (
