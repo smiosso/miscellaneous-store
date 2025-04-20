@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Products from './pages/Products';
 import ProductDetails from './pages/ProductDetails';
 import Cart from './pages/Cart';
+import Search from './pages/Search';
 import Navbar from './components/Navbar';
 import { CartProvider } from './context/CartContext';
 
@@ -16,6 +17,7 @@ function App() {
           <Route path="/products" element={<Products />} />
           <Route path="/product/:id" element={<ProductDetails />} />
           <Route path="/cart" element={<Cart />} />
+          <Route path="/search" element={<Search />} />
         </Routes>
       </Router>
     </CartProvider>
