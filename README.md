@@ -30,7 +30,7 @@ The project follows a modular structure for scalability and maintainability:
 ├── package.json            # Project metadata and dependencies
 ├── tailwind.config.js      # Tailwind CSS configuration
 └── vite.config.js          # Vite configuration
-
+```
 
 ## 💡 Features
 * 🔍 Real-time product search by name.
@@ -44,15 +44,15 @@ The project follows a modular structure for scalability and maintainability:
 #### Clone the repository:
 ```
 git clone https://github.com/smiosso/miscellaneous-store.git
-cd miscellaneous-store
+cd miscellaneous-store```
 
 #### Install dependencies:
 ```
-npm install
+npm install```
 
 #### Start the development server:
 ```
-npm run dev
+npm run dev```
 
 #### Open your browser and navigate to:
 http://localhost:5173
