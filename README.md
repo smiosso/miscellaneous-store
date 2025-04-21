@@ -1,4 +1,5 @@
-# 🛍️ Miscellaneous Store – Find everything you might not need
+# 🛍️ Miscellaneous Store
+## Find everything you might not need
 
 This project is a fictional online store developed as part of the Fullstack Bootcamp at ReDI School Berlin. It simulates an e-commerce platform where users can browse products, search for items, filter by category, and add products to a shopping cart.
 
@@ -30,6 +31,7 @@ The project follows a modular structure for scalability and maintainability:
 ├── tailwind.config.js      # Tailwind CSS configuration
 └── vite.config.js          # Vite configuration
 
+
 ## 💡 Features
 * 🔍 Real-time product search by name.
 * 🛒 Add to cart functionality from product listings and detail pages.
@@ -43,12 +45,15 @@ The project follows a modular structure for scalability and maintainability:
 ```
 git clone https://github.com/smiosso/miscellaneous-store.git
 cd miscellaneous-store
+
 #### Install dependencies:
 ```
 npm install
+
 #### Start the development server:
 ```
 npm run dev
+
 #### Open your browser and navigate to:
 http://localhost:5173
 
