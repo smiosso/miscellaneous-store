@@ -38,21 +38,23 @@ The project follows a modular structure for scalability and maintainability:
 * 🧩 Category filtering from the homepage.
 * 🧭 Single Page Application (SPA) navigation with React Router.
 * 🧠 Global state management using React's Context API.
-* 🛠️ Getting Started
+
+## 🛠️ Getting Started
 
 ### To run the project locally:
 #### Clone the repository:
 ```
 git clone https://github.com/smiosso/miscellaneous-store.git
-cd miscellaneous-store```
-
+cd miscellaneous-store
+```
 #### Install dependencies:
 ```
-npm install```
-
+npm install
+```
 #### Start the development server:
 ```
-npm run dev```
+npm run dev
+```
 
 #### Open your browser and navigate to:
 http://localhost:5173
