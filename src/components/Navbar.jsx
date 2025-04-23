@@ -51,7 +51,7 @@ const Navbar = () => {
             Products
           </Link>
 
-          <Link to="/cart" className="text-gray-600">
+          <Link to="/cart" className="text-gray-600 hover:underline">
             🛒 Cart ({cart.length})
           </Link>
         </div>
